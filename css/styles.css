@@ -1,0 +1,53 @@
+.rrss {
+  margin-left: 20px;
+}
+
+.nav-item {
+  font-size: 20px;
+  margin-right: 70px;
+}
+
+.escudo {
+  margin-left: 100px;
+  height: 180px;
+  width: auto;
+}
+
+.carousel-item {
+  position: relative;
+}
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  z-index: 1;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+.carousel-caption {
+  position: relative;
+  z-index: 2;
+}
+
+.group-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.card {
+  width: 25rem;
+}
+
+.card-img-top {
+  height: 200px;
+  max-width: auto;
+}
